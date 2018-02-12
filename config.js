@@ -1,0 +1,3 @@
+exports.TOKEN = 'NDEyNjU2MDU0NDA5NjI1NjAx.DWNbbA.c87i9H39lhCe3xEK-1XeTaFK8r0'
+
+exports.PREFIX = '>'

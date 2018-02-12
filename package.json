@@ -1,0 +1,17 @@
+{
+  "name": "ares",
+  "version": "0.0.1",
+  "description": "test bot",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gokalp turgut",
+  "license": "ISC"
+}
