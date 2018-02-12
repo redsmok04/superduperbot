@@ -2,8 +2,6 @@ const { Client } = require('discord.js');
 const { TOKEN, PREFIX } = require('./config');
 const ytdl = require('ytdl-core');
 
-var ffmpeg = require('ffmpeg');
-
 const client = new Client({ disableEveryone: true });
 
 client.on('warn', console.warn);
@@ -53,4 +51,5 @@ client.on('message', async msg => {
 
     dispacther.setVolumeLogarithmic(5 / 5);
 });
+var ffmpeg = require('ffmpeg');
 client.login(TOKEN);
